@@ -1,0 +1,50 @@
+# Araç Bakım Takip Sistemi
+## Yazılım Gereksinimleri Dokümanı
+
+### 1. Projenin Amacı
+Araç Bakım Takip Sistemi, kullanıcıların araç bilgilerini kaydetmesini, bakım ve servis geçmişlerini takip etmesini ve yaklaşan bakım işlemlerinden haberdar olmasını sağlayan bir uygulamadır.
+
+### 2. Kullanılacak Teknolojiler
+- Programlama Dili: Python
+- Kullanıcı Arayüzü: Streamlit
+- Veritabanı: SQLite
+- Versiyon Kontrol: Git ve GitHub
+- Otomatik Test: Pytest
+- CI/CD: GitHub Actions
+- Konteynerleştirme: Docker
+- Bulut Dağıtımı: Render veya uygun bir alternatif
+
+### 3. Temel Fonksiyonlar
+1. Araç ekleme, listeleme, güncelleme ve silme.
+2. Araçlara bakım ve servis kaydı ekleme.
+3. Araçların geçmiş bakım kayıtlarını görüntüleme.
+4. Yaklaşan ve gecikmiş bakımların hatırlatılması.
+5. Araç ve bakım istatistiklerinin dashboard üzerinde gösterilmesi.
+
+### 4. Fonksiyonel Gereksinimler
+- FR-01: Kullanıcı yeni araç kaydedebilmelidir.
+- FR-02: Kayıtlı araçlar listelenebilmelidir.
+- FR-03: Araç bilgileri güncellenebilmelidir.
+- FR-04: Araç kayıtları silinebilmelidir.
+- FR-05: Araçlara bakım kaydı eklenebilmelidir.
+- FR-06: Bakım kayıtları görüntülenebilmelidir.
+- FR-07: Araçların bakım geçmişi gösterilebilmelidir.
+- FR-08: Yaklaşan bakım tarihleri tespit edilebilmelidir.
+- FR-09: Gecikmiş bakımlar gösterilebilmelidir.
+- FR-10: Toplam bakım maliyetleri hesaplanabilmelidir.
+- FR-11: Dashboard üzerinde araç ve bakım istatistikleri gösterilebilmelidir.
+
+### 5. Fonksiyonel Olmayan Gereksinimler
+- NFR-01: Uygulama Python ile geliştirilmelidir.
+- NFR-02: Arayüz Streamlit kullanılarak oluşturulmalıdır.
+- NFR-03: Veriler SQLite veritabanında saklanmalıdır.
+- NFR-04: Hatalı veri girişlerinde kullanıcıya uyarı verilmelidir.
+- NFR-05: Uygulama modüler bir yazılım mimarisine sahip olmalıdır.
+- NFR-06: Uygulama Docker ile çalıştırılabilmelidir.
+- NFR-07: Uygulama bulut ortamında yayınlanabilmelidir.
+
+### 6. Proje Kapsamı
+Proje kapsamında araç yönetimi, bakım ve servis kayıtları, bakım geçmişi, bakım hatırlatma ve istatistik ekranları geliştirilecektir. İlk sürümde kullanıcı kimlik doğrulama, ödeme sistemi ve mobil uygulama geliştirme kapsam dışında tutulacaktır.
+
+### 7. Beklenen Sonuç
+Kullanıcıların araç bakım süreçlerini tek bir platform üzerinden takip edebildiği, bakım geçmişine ulaşabildiği ve yaklaşan bakım işlemlerini görüntüleyebildiği çalışan bir uygulama geliştirilmesi hedeflenmektedir.
